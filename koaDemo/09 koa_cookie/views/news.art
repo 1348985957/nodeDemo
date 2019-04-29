@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻</title>
+    <script>
+        console.log(document.cookie);
+    </script>
+</head>
+<body>
+{{userinfo}}
+</body>
+</html>

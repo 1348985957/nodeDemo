@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+    <script>
+        console.log(document.cookie);
+    </script>
+</head>
+<body>
+{{include './public/header.art'}}
+<h1>这是一个art-template的模板引擎</h1>
+{{list.name}}
+<br/>
+{{list.sex}}
+<br/>
+
+</body>
+</html>
